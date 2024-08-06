@@ -9,6 +9,7 @@ read USERNAME
 
 USER_ID=$($PSQL "SELECT user_id FROM users WHERE name = '$USERNAME'")
 
+# check user exists
 if [[ -z $USER_ID ]]
 then
   echo Welcome, $USERNAME! It looks like this is your first time here.
