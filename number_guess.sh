@@ -21,6 +21,7 @@ else
   echo Welcome back, $USERNAME! You have played $GAMES_PLAYED games, and your best game took $BEST_GAME guesses.
 fi
 
+# guess number
 GUESS_NUMBER=0
 echo "Guess the secret number between 1 and 1000:"
 
